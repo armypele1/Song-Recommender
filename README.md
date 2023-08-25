@@ -48,5 +48,9 @@ The algorithm used to construct the non-personalised recommender system is popul
 The input interface is an easy-to-understand set of numbered options. Upon choosing a recommendation type, the user is requested to enter a user number to receive recommendations for that user. It was chosen to use the encoded number as opposed to the full user IDs because their length would make it tedious to enter them into the system.
 There is an additional option to clear the screen, in the case that many recommendations have been made and the command line looks cluttered.
 
+![input interface](Images/inputInterface.png?raw=true "input interface")
+
 
 Recommendations are displayed in a simple list, which is labelled with rankings from 1 to n, where n is the number of recommendations requested by the user.
+
+![output interface](Images/outputInterface.png?raw=true "output interface")
